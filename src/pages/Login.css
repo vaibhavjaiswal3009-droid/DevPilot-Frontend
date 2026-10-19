@@ -1,0 +1,166 @@
+
+.login-page {
+  min-height: 100vh;
+  background-color: #080d0a;
+  background-image: radial-gradient(#25342a 1px, transparent 1px);
+  background-size: 26px 26px;
+  color: #e4ebe6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 20px;
+  box-sizing: border-box;
+  font-family: "Courier New", monospace;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 460px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #43df83;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 28px;
+}
+
+.brand-icon {
+  font-size: 24px;
+  transform: rotate(-35deg);
+}
+
+.login-card {
+  background: #0e1510;
+  border: 1px solid #202d24;
+  border-radius: 12px;
+  padding: 32px;
+}
+
+.terminal-text {
+  color: #a6b5aa;
+  font-size: 13px;
+  margin: 4px 0 14px;
+}
+
+.terminal-text span {
+  color: #43df83;
+}
+
+.login-card h1 {
+  font-size: 27px;
+  margin: 0 0 12px;
+}
+
+.subtitle {
+  color: #a6b5aa;
+  font-size: 13px;
+  margin-bottom: 24px;
+}
+
+.login-options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.login-options button {
+  width: 100%;
+  min-height: 52px;
+  padding: 12px 16px;
+  border-radius: 7px;
+  font: inherit;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.github-button {
+  background: #43d982;
+  color: #061109;
+  border: 1px solid #43d982;
+}
+
+.secondary-button {
+  background: transparent;
+  color: #e4ebe6;
+  border: 1px solid #25342a;
+}
+
+.secondary-button span {
+  float: right;
+}
+
+.login-options button:hover {
+  filter: brightness(1.08);
+}
+
+.legal-text {
+  color: #a6b5aa;
+  font-size: 11px;
+  line-height: 1.8;
+  margin: 24px 0 4px;
+}
+
+a {
+  color: #70e7a0;
+}
+
+.login-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 28px;
+  color: #a6b5aa;
+  font-size: 12px;
+}
+
+@media (max-width: 480px) {
+  .login-card {
+    padding: 24px 20px;
+  }
+
+  .login-card h1 {
+    font-size: 23px;
+  }
+}
+
+.login-options label,
+.password-label {
+  color: #b6c3b9;
+  font-size: 12px;
+}
+
+.login-options input {
+  width: 100%;
+  min-height: 48px;
+  padding: 12px 14px;
+  background: #090f0b;
+  border: 1px solid #25342a;
+  border-radius: 7px;
+  color: #e4ebe6;
+  font: inherit;
+  font-size: 13px;
+  outline: none;
+}
+
+.login-options input:focus {
+  border-color: #43d982;
+}
+
+.login-options input::placeholder {
+  color: #718076;
+}
+
+.password-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.password-label a {
+  font-size: 11px;
+}
